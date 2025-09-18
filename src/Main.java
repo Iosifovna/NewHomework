@@ -117,5 +117,6 @@ public class Main {
         System.out.println("Денис теперь получает " + newSalaryOfDenis + " рублей. Годовой доход вырос на " + differenceBetweenNewAndCurrentSalaryForYearForDenis + " рублей");
         System.out.println("Кристина теперь получает " + newSalaryOfKristina + " рублей. Годовой доход вырос на " + differenceBetweenNewAndCurrentSalaryForYearForKristina + " рублей");
         // Почему даже в задаче у парня зарплата выше, чем у девущек! Это несправедливо! Сейчас же много матерей одиночек, а парни никого  не содержат :(
+        // Для пуша
     }
 }
