@@ -78,9 +78,10 @@ public class Main {
         byte weightOfMilkOf100ml = 105;
         byte weightOfOneIceCreamSundae = 100;
         byte weightOfOneEgg = 70;
+        short grPerKg = 1000;
 
         short totalWeightOfBreakfastInGr = (short) (weightOfOneBanana * 5 + weightOfMilkOf100ml * 2 + weightOfOneIceCreamSundae * 2 + weightOfOneEgg * 4);
-        float totalWeightInKilo = (float) ((float) (totalWeightOfBreakfastInGr / 1000));
+        float totalWeightInKilo = totalWeightOfBreakfastInGr / (float) grPerKg;
         System.out.println("6 задача:");
         System.out.println("Вес завтрака спорстмена в граммах равен: " + totalWeightOfBreakfastInGr + "г.");
         System.out.println("Вес завтрака спортсмена в килограммах равен: " + totalWeightInKilo + "кг.");
