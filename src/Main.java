@@ -26,9 +26,18 @@ public class Main {
         Long number2 = 987678965549L;
         float number3 = 2.786f;
         short number4 = 569;
-        short number5 =-159;
+        short number5 = -159;
         short number6 = 27897;
         byte number7 = 67;
+        System.out.println("Первая задача:");
+        System.out.println("Значение переменной number1 в формате float равно " + number1);
+        System.out.println("Значение переменной number2 в формате Long равно " + number2);
+        System.out.println("Значение переменной number3 в формате short равно " + number3);
+        System.out.println("Значение переменной number4 в формате short равно " + number4);
+        System.out.println("Значение переменной number5 в формате short равно " + number5);
+        System.out.println("Значение переменной number6 в формате short равно " + number6);
+        System.out.println("Значение переменной number7 в формате byte равно " + number7);
+        System.out.println();
 
         // Задача №3
 
@@ -46,16 +55,16 @@ public class Main {
         //Задача №4
 
         byte bottlesInTwoMinutes = 16;
-        byte bottlesInOneminute = 16 / 2;
+        byte bottlesInOneMinute = 16 / 2;
         short twentyMinutes = 20;
         short minutesInOneDay = 24 * 60;
         short minutesInOneMonth = (short) (minutesInOneDay * 31);
-        short bottlesInTwentyMinutes = (short) (bottlesInOneminute * twentyMinutes);
+        short bottlesInTwentyMinutes = (short) (bottlesInOneMinute * twentyMinutes);
         System.out.println("4 задача:");
         System.out.println("За " + twentyMinutes + " минут машина произвела " + bottlesInTwentyMinutes + " штук бутылок.");
-        short bottlesInOneDay = (short) (bottlesInOneminute * minutesInOneDay);
+        short bottlesInOneDay = (short) (bottlesInOneMinute * minutesInOneDay);
         System.out.println("За один день машина произвела " + bottlesInOneDay + " штук бутылок.");
-        short bottlesInOneMonth = (short) (bottlesInOneminute * minutesInOneMonth);
+        short bottlesInOneMonth = (short) (bottlesInOneMinute * minutesInOneMonth);
         System.out.println("За месяц машина произвела " + bottlesInOneMonth + " штук бутылок.");
         System.out.println();
 
@@ -94,7 +103,7 @@ public class Main {
         short weightToLosePerDaySecondOption = 500;
         byte neededDaysForFirstOption = (byte) (overWeight / weightToLosePerDayFirstOption);
         byte neededDaysFofSecondOption = (byte) (overWeight / weightToLosePerDaySecondOption);
-        short averageWeightToLosePerDay = (short) ((short) (weightToLosePerDayFirstOption + weightToLosePerDaySecondOption)/2);
+        short averageWeightToLosePerDay = (short) ((short) (weightToLosePerDayFirstOption + weightToLosePerDaySecondOption) / 2);
         byte neededDaysForAverageOption = (byte) (overWeight / averageWeightToLosePerDay);
         System.out.println("7 задача:");
         System.out.println("Если спортсмен будет терять каждый день по " + weightToLosePerDayFirstOption + "г, то понадбится " + neededDaysForFirstOption + " дней, чтобы скинуть 7 кг.");
