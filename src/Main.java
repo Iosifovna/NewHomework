@@ -6,7 +6,7 @@ public class Main {
         byte a = 2;
         short b = 22222;
         int c = 222222;
-        Long d = 22222222L;
+        long d = 22222222;
 
         float e = 2.22f;
         double f = 2.2222222222;
@@ -23,7 +23,7 @@ public class Main {
         // Задача №2
 
         float number1 = 27.12f;
-        Long number2 = 987678965549L;
+        long number2 = 987678965549L;//Здесь итак был использован тип long, а не Long, в чем ошибка? Число больше 2 млрд, поэтому в конце пишем L
         float number3 = 2.786f;
         short number4 = 569;
         short number5 = -159;
